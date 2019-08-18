@@ -8,6 +8,6 @@ def oxford_comma(array)
     new_item = "and #{last_item}"
     array.pop
     array.push(new_item)
-    return array.join(',')
+    return array.join(', ')
   end
 end
